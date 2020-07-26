@@ -1,14 +1,17 @@
 function getColor(selection)
 {
 	switch(selection){
-		// Add more options here
+        // Add more options here
+        case 1:
+            return false;
+            break;
 	    default:
-	    	return false;  //returns false because the user picked an unavailable color
-	    break;               
+	    	return true;  //returns false because the user picked an unavailable color
+	        break;               
 	}
 }
 
-var colorname = window.prompt('What color do you want?');
+var colorname = prompt('What color do you want?');
 var isAvailable = getColor(colorname);
 
 if(isAvailable)
