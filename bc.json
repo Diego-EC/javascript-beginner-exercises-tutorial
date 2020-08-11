@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://d20ecd45-a2e4-44d5-9175-142b10e951b0.ws-eu01.gitpod.io",
+    "address": "https://e2326c4f-ceed-4cc2-ae6c-509fc28bf0e6.ws-eu01.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -182,7 +182,7 @@
         {
             "slug": "14-Your-first-switch",
             "title": "14-Your-first-switch",
-            "done": false,
+            "done": true,
             "path": "exercises/14-Your-first-switch",
             "translations": [
                 "es",
